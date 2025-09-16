@@ -21,7 +21,7 @@ Abra o terminal e digite:
 ```
 git --version
 ```
-Se retornar algo como git version 2.x.x, está tudo certo.
+Se retornar algo como git version 2.x.x, está tudo certo. Caso não tenha o git instalado, siga a instrução abaixo
 
 ---------------------------------
 <h2>2. Instalar o Git:</h2>
@@ -103,6 +103,14 @@ Clique em "Contribute" > "Open Pull Request"
 ![](assets/Pull-Request.png)
 
 Descreva brevemente o que foi resolvido e envie o Pull request. <br> Depois, avaliarei seu código e juntarei ao repisitório original.
+
+----------------------------------
+
+# 🧵 Canal da Monitoria (Discord)
+
+A monitoria será transmitida ao vivo e o suporte será prestado pelo servidor oficial do Discord:
+
+🔗 [discord.gg/d8fkh8vS5b](http://discord.gg/JTwkRGUsWH)
 
 ---------------------------------
 Desejo a todos bons estudos. <br>
