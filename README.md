@@ -105,6 +105,17 @@ Clique em "Contribute" > "Open Pull Request"
 Descreva brevemente o que foi resolvido e envie o Pull request. <br> Depois, avaliarei seu código e juntarei ao repisitório original.
 
 ----------------------------------
+## 🎯 Seu Primeiro Passo: O Nivelamento
+
+Para que eu possa entender melhor suas dificuldades e para que você mesmo(a) possa identificar seus pontos fortes e fracos, preparei um checklist de nivelamento.
+
+**Instruções:**
+
+1.  **Faça um Fork deste repositório:** ...
+2.  **Acesse a pasta `aquecimento`:** ...
+3.  **Siga as instruções do `README.md` de lá:** ...
+4.  **IMPORTANTE:** Antes de entregar seus exercícios, leia nosso **[Guia de Contribuição e Entrega](./CONTRIBUTING.md)** para seguir o padrão correto.
+----------------------------------
 
 # 🧵 Canal da Monitoria (Discord)
 
