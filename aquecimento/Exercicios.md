@@ -23,19 +23,16 @@ As soluções de gabarito para os exercícios estão disponíveis nas pastas `-g
 > [!TIP]
 > As soluções para este módulo estão na pasta `modulo-01-gabarito`. **[Clique aqui para ver o gabarito](./modulo-01-gabarito/)**.
 
-* **Questão 1:** Faça um programa que leia a idade de uma pessoa em anos, meses e dias e a expresse apenas em dias.
-    *(Nome do arquivo: `q1.c`)*
-
-* **Questão 2:** Faça um programa que leia o nome, o sexo (`char`) e o salário de um funcionário e imprima os dados formatados.
+* **Questão 1:** Faça um programa que leia o nome completo, o sexo (`char`) e o salário de um funcionário e imprima os dados formatados, imprimir o salario com duas casas decimais, use %.2f.
     *(Nome do arquivo: `q2.c`)*
 
-* **Questão 3:** Faça um programa que leia o raio de um círculo e calcule sua área (`π * r²`) e seu perímetro (`2 * π * r`).
+* **Questão 2:** Faça um programa que leia o raio de um círculo e calcule sua área (`π * r²`) e seu perímetro (`2 * π * r`).
     *(Nome do arquivo: `q3.c`)*
 
-* **Questão 4:** Faça um programa que leia 3 notas, calcule a média e imprima "Aprovado", "Recuperação" ou "Reprovado" (média >= 7, >= 5, < 5).
+* **Questão 3:** Faça um programa que leia 3 notas, calcule a média e imprima "Aprovado", "Recuperação" ou "Reprovado" (média >= 7, >= 5, < 5).
     *(Nome do arquivo: `q4.c`)*
 
-* **Questão 5:** Faça um programa que imprima a tabuada de um número N (de 1 a 10), onde N é fornecido pelo usuário.
+* **Questão 4:** Faça um programa que imprima a tabuada de um número N (de 1 a 10), onde N é fornecido pelo usuário.
     *(Nome do arquivo: `q5.c`)*
 
 
@@ -61,10 +58,10 @@ As soluções de gabarito para os exercícios estão disponíveis nas pastas `-g
 > [!TIP]
 > As soluções para este módulo estão na pasta `modulo-03-gabarito`. **[Clique aqui para ver o gabarito](./modulo-03-gabarito/)**.
 
-* **Questão 1:** Declare uma variável `int x = 42;` e um ponteiro `int *p;`. Faça `p` apontar para `x`. Imprima o valor de `x`, o endereço de `x`, o valor de `p` e o valor apontado por `p`.
+* **Questão 1:** Declare uma variável `int x = 42;` e um ponteiro `int *p;`. Faça `p` apontar para `x`. Imprima o valor de `x`, o endereço de `x`, o valor de `p` e o valor que 'p' está apontado.
     *(Nome do arquivo: `q1.c`)*
 
-* **Questão 2:** Crie uma função `void troca(int *a, int *b)` que recebe o endereço de duas variáveis e troca os valores entre elas. Teste-a na `main`.
+* **Questão 2:** Crie uma função `void troca(int *a, int *b)` que recebe o endereço de duas variáveis e troca os valores entre elas. Teste-a na `main`. Caso não tenha percebido, quero que faça com ponteiro, então você deve acessar o enredeço de memória da variável. 
     *(Nome do arquivo: `q2.c`)*
 
 * **Questão 3:** Faça um programa que pergunte ao usuário o tamanho `N`. Aloque dinamicamente um vetor de `N` inteiros, preencha-o, imprima seus valores e com um for, e no final, libere a memória alocada com `free()`. Quero que você faça a verificação da alocação, pode fazer com malloc ou calloc, caso tenha dúvida nessa atividade, pode me mandar mensagem, ou olhar o gabarito, sem copiar.
