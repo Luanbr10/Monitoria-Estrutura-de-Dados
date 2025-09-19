@@ -36,7 +36,7 @@ aquecimento/
 
 ### 📌 Regras para a Entrega
 
-1.  **Nome da Pasta Principal:** O nome da sua pasta dentro de `entregas/` deve ser **exatamente o seu nome de usuário do GitHub** (ex: `Luanbr10`). Isso evita conflitos e facilita a identificação.
+1.  **Nome da Pasta Principal:** O nome da sua pasta dentro de `entregas/` deve ser o seu nome e sobrenome. Ex: luan-borges.
 2.  **Nomes dos Arquivos:** Os arquivos `.c` devem ser nomeados como `qX.c`, onde `X` é o número da questão correspondente no checklist do aquecimento.
     * `q1.c` para a questão 1, `q2.c` para a questão 2, e assim por diante.
 3.  **Comentários no Código:** É uma boa prática incluir um comentário no início de cada arquivo `.c` indicando a qual exercício ele se refere.
