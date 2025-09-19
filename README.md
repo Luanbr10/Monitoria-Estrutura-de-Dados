@@ -107,14 +107,13 @@ Descreva brevemente o que foi resolvido e envie o Pull request. <br> Depois, ava
 ----------------------------------
 ## 🎯 Seu Primeiro Passo: O Nivelamento
 
-Para que eu possa entender melhor suas dificuldades e para que você mesmo(a) possa identificar seus pontos fortes e fracos, preparei um checklist de nivelamento.
+Para que eu possa entender melhor suas dificuldades e para que você mesmo(a) possa identificar seus pontos fortes e fracos, preparei uma lista de exercícios de nivelamento.
 
 **Instruções:**
 
-1.  **Faça um Fork deste repositório:** ...
-2.  **Acesse a pasta `aquecimento`:** ...
-3.  **Siga as instruções do `README.md` de lá:** ...
-4.  **IMPORTANTE:** Antes de entregar seus exercícios, leia nosso **[Guia de Contribuição e Entrega](./CONTRIBUTING.md)** para seguir o padrão correto.
+1.  **Faça um Fork deste repositório:** Clique no botão "Fork" no canto superior direito da página. Isso criará uma cópia exata deste repositório na sua conta do GitHub, onde você poderá editar e salvar seu progresso.
+2.  **Acesse os Exercícios:** Navegue até a pasta de nivelamento para encontrar a lista de exercícios. **[Clique aqui para começar os exercícios](./aquecimento/Exercicios.md)**.
+3.  **IMPORTANTE:** Antes de entregar seus exercícios, leia nosso **[Guia de Contribuição e Entrega](./CONTRIBUTING.md)** para seguir o padrão correto.
 ----------------------------------
 
 # 🧵 Canal da Monitoria (Discord)
