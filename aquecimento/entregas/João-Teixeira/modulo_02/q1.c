@@ -13,16 +13,24 @@ void limpar_buffer(){
     while((c = getchar()) != '\n' && c != EOF);
 }
 
+int ehPrimo(int n){
+    for(int i = 0;i<n;i++){
+        if(n % i ==0)
+        return 1;
+    }
+    return 0;
+}
+
 void main(){
     int n;
-    
-    //vou considerar os meses tendo 30 dias sempre e anos tendo 365
+
 
     printf("digite o numero:\n");
     scanf("%d",&n);
-    printf("-------tabuada do %d-------\n",n);
-    for(int i = 1;i<=10;i++){
-        printf("%d x %d = %d\n",n,i,n*i);
+    if (ehPrimo(n)==1){
+        printf("%d é primo",n);
+    }else{
+        printf("%d nao é primo",n);
     }
-    printf("---------------------------\n");
+
 }
