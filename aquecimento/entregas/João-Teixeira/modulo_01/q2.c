@@ -16,8 +16,7 @@ void limpar_buffer(){
 void main(){
     char nome[100], sexo_c, sexo[20];
     float salario;
-    
-    //vou considerar os meses tendo 30 dias sempre e anos tendo 365
+
 
     printf("qual seu nome?\n");
     scanf("%[^\n]",&nome);

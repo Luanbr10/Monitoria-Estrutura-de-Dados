@@ -15,8 +15,7 @@ void limpar_buffer(){
 
 void main(){
     int n;
-    
-    //vou considerar os meses tendo 30 dias sempre e anos tendo 365
+
 
     printf("digite o numero:\n");
     scanf("%d",&n);

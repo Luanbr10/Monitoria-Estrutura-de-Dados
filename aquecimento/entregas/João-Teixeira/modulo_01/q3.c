@@ -15,8 +15,7 @@ void limpar_buffer(){
 
 void main(){
     int raio,perimetro,area;
-    
-    //vou considerar os meses tendo 30 dias sempre e anos tendo 365
+
 
     printf("raio:\n");
     scanf("%d",&raio);
