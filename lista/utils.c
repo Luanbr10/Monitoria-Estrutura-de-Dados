@@ -62,16 +62,27 @@ void remover_inicio(Lista *li){
     free(no_remover);
 }
 // Remover elemento no inicio da lista
-void remover_inicio(Lista* li) {
-    if (li == NULL || *li == NULL) return; // Lista não existe ou está vazia
+void remover_final(Lista* li) {
+    if (li == NULL || *li == NULL) return;
 
-    //Ponteiro auxiliar aponta para o primeiro nó
-    No* no_a_remover = *li;
+    No *anterior = NULL;
+    No *no_a_remover = *li;
 
-    //O início da lista avança para o próximo
-    *li = no_a_remover->prox;
+    // 1. Percorre a lista até o final, guardando o anterior
+    while (no_a_remover->prox != NULL) {
+        anterior = no_a_remover;
+        no_a_remover = no_a_remover->prox;
+    }
 
-    //Libera a memória do nó removido
+    // 2. Se 'anterior' é NULL, significa que a lista só tem um elemento
+    if (anterior == NULL) {
+        *li = NULL; // A lista fica vazia
+    } else {
+        // 3. O penúltimo nó agora se torna o último
+        anterior->prox = NULL;
+    }
+
+    // 4. Libera a memória do nó que estava no final
     free(no_a_remover);
 }
 
