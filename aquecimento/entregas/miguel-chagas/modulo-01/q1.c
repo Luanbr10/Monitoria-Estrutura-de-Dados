@@ -20,5 +20,5 @@ void main(){
 
     int tempoTotal = dia + (mes * 30) + ((2025 - ano) * 365);
 
-    printf("\nVocê nasceu %d dias atrás!",tempoTotal);
+    printf("\nVocê nasceu aproximadamente %d dias atrás!\n",tempoTotal);
 }
