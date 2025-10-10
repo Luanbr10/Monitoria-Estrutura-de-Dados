@@ -6,7 +6,7 @@ int main(){
     int idade_dias;
             
     printf("Digite a idade em anos, meses e dias: ");
-    scanf("%d %d %d",anos, meses, dias);
+    scanf("%d %d %d",&anos, &meses, &dias);
 
    idade_dias = anos * 365 + meses * 30 + dias;
 
