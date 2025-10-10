@@ -20,8 +20,9 @@ void main(){
 
     printf("qual seu nome?\n");
     scanf("%[^\n]",&nome);
-    printf("qual seu sexo?\n");
-    scanf("%c",&sexo);
+    limpar_buffer();
+    printf("qual seu sexo?(M/F)\n");
+    scanf("%c",&sexo_c);
     printf("qual seu salario?\n");
     scanf("%f",&salario);
 
@@ -34,7 +35,7 @@ void main(){
     system(LIMPAR_TELA);
 
     printf("-----------------------------------------------\n");
-    printf("sua idade somente em dias é igual a %d\n",nome);
+    printf("nome: %s\n",nome);
     printf("sexo: %s\n",sexo);
     printf("salario: %.2f\n",salario);
     printf("-----------------------------------------------\n");

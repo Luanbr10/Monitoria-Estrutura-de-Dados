@@ -14,19 +14,19 @@ void limpar_buffer(){
 }
 
 void main(){
-    int raio,perimetro,area;
+    float raio,perimetro,area;
 
 
     printf("raio:\n");
-    scanf("%d",&raio);
+    scanf("%f",&raio);
 
-    area = 3,14 * (raio*raio);
-    perimetro = 2 * 3,14 * raio;
+    area = 3.14 * (raio*raio);
+    perimetro = 2 * 3.14 * raio;
 
     system(LIMPAR_TELA);
     
-    printf("raio: %d\n",raio);
-    printf("area: %d\n",area);
-    printf("perimetro: %d\n",perimetro);
+    printf("raio: %.2f\n",raio);
+    printf("area: %.2f\n",area);
+    printf("perimetro: %.2f\n",perimetro);
 
 }

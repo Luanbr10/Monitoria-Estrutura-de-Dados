@@ -27,11 +27,11 @@ void main(){
     media = (n1 + n2 + n3)/3;
     system(LIMPAR_TELA);
     
-    if(media>=7)
-    printf("aprovado");
-    if(media>=5)
-    printf("recuperacao");
-    if(media<5)
-    printf("reprovado");
-
+    if(media>=7){
+        printf("aprovado\n");
+    }else if(media>=5){
+        printf("recuperacao\n");
+    }else if(media<5){
+        printf("reprovado\n");
+    }
 }
