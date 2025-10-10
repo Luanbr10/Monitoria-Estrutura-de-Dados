@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-
+#define LIMPAR_TELA "clear"
 #define Tamanho_vetor 5
 
 /**
