@@ -60,7 +60,7 @@ As soluções de gabarito para os exercícios estão disponíveis nas pastas `-g
 * **Questão 1:** Declare uma variável `int x = 42;` e um ponteiro `int *p;`. Faça `p` apontar para `x`. Imprima o valor de `x`, o endereço de `x`, o valor de `p` e o valor apontado por `p`.
     *(Nome do arquivo: `q1.c`)*
 
-* **Questão 2:** Crie uma função `void troca(int *a, int *b)` que recebe o endereço de duas variáveis e troca os valores entre elas. Teste-a na `main`. Caso não tenha percebido, quero que faça com ponteiro, então você deve acessar o enredeço de memória da variável. 
+* **Questão 2:** Crie uma função `void troca(int *a, int *b)` que recebe o endereço de duas variáveis e troca os valores entre elas. Teste-a na `main`. Caso não tenha percebido, quero que faça com ponteiro, então você deve acessar o endereço de memória da variável. 
     *(Nome do arquivo: `q2.c`)*
 
 * **Questão 3:** Faça um programa que pergunte ao usuário o tamanho `N`. Aloque dinamicamente um vetor de `N` inteiros, preencha-o, imprima seus valores com um for, e no final, libere a memória alocada com `free()`. Quero que você faça a verificação da alocação, pode fazer com malloc ou calloc, caso tenha dúvida nessa atividade, pode me mandar mensagem, ou olhar o gabarito, sem copiar.
