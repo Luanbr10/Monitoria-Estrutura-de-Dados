@@ -14,6 +14,7 @@ int main() {
 
     media = (nota1 + nota2 + nota3) / 3;
 
+
     if(media < 5){
         printf("reprovado\n");
     }
