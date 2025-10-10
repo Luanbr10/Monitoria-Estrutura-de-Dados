@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 typedef struct {
     char nome[50];
@@ -21,7 +22,7 @@ int main() {
     printf("Digite a nota: \n");
     scanf("%f", &aluno.nota);
     
-    printf("=============================\n");
+    printf("=============================\n\n");
 
     return 0;
 
