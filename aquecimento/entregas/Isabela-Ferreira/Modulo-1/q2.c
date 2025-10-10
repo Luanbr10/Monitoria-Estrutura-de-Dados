@@ -10,11 +10,10 @@ float salario;
 
 printf("Digite o nome completo: ");
 fgets(nome, sizeof(nome), stdin);
-nome[strcpsn(nome, "\n")] = '0';
+nome[strcspn(nome, "\n")] = '\0';
 
 printf("Digite o sexo: ");
-scanf(" %s", sexo);
-
+scanf("%s", sexo);
 
 printf("Digite o salario: ");
 scanf("%f", &salario);
