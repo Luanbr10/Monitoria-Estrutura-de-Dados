@@ -14,11 +14,14 @@ void limpar_buffer(){
 }
 
 int ehPrimo(int n){
-    for(int i = 0;i<n;i++){
-        if(n % i ==0)
-        return 1;
+    if(n <= 0){
+        return 2;
     }
-    return 0;
+    for(int i = 2;i<n;i++){
+        if(n % i ==0)
+        return 0;
+    }
+    return 1;
 }
 
 void main(){
@@ -27,7 +30,10 @@ void main(){
 
     printf("digite o numero:\n");
     scanf("%d",&n);
-    if (ehPrimo(n)==1){
+    system(LIMPAR_TELA);
+    if(ehPrimo(n)==2){
+        printf("%d é negativo ou igual a zero entao nao pode ser primo.");
+    }else if (ehPrimo(n)==1){
         printf("%d é primo",n);
     }else{
         printf("%d nao é primo",n);

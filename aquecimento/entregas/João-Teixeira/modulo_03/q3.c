@@ -31,5 +31,9 @@ void main(){
         scanf("%d", &vetor[i]);
         printf("\n");
     }
+    for(int i = 0; i < n; i ++){
+        printf("valor de %d: %d",i+1, vetor[i]);
+        printf("\n");
+    }
     free(vetor);
 }

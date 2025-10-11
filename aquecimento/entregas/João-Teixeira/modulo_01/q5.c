@@ -19,6 +19,7 @@ void main(){
 
     printf("digite o numero:\n");
     scanf("%d",&n);
+    system(LIMPAR_TELA);
     printf("-------tabuada do %d-------\n",n);
     for(int i = 1;i<=10;i++){
         printf("%d x %d = %d\n",n,i,n*i);
